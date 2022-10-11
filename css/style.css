@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color:#fff;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.judul {
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+
+#search {
+    width: 250px;
+    margin-right: 50px;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.container h1 {
+    color: #000;
+}
+
+.card {
+    width: 14rem; 
+    height: 430px;  
+    border-radius: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.card img {
+    height: 300px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card img:hover {
+    opacity: 80%;
+}
+
+
+.card .judul-film {
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0;
+}
+
+.card .rating {
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.card-title {
+    padding: 16px 16px 0px 16px;
+    margin-bottom: 0;
+}
+
+.card-date {
+    position: absolute;
+    padding-left: 16px;
+    bottom: 0;
+}
+
+.card-date p {
+    font-size: 14px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+/* Index */
+
+.container-fluid {
+    background-color: #000;
+}
+
+.container-fluid .carousel-inner .carousel-item img {
+    height: 100vh;
+    width: 100vw;
+    opacity: 40%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+p {
+    margin-left: 4px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.carousel-caption {
+    margin-top: 200px;
+}
+
+.button-cari .btn-danger{
+    display: flex;
+    font-size: 18px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
